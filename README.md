@@ -34,16 +34,69 @@ These are hypotheses from a draft PRD—not validated causes of abandonment. Res
 
 ## Explore the concepts
 
-Static HTML prototypes open directly in a modern browser. PNG previews are provided for quick viewing.
+The screens below storyboard the experience from cart review through payment, recovery, and confirmation. Expand each step to compare web and mobile. Select a screenshot to view it full size, or use **Open HTML prototype** to inspect that screen in a browser.
 
-| Journey moment | Web concept | Mobile concept |
-| --- | --- | --- |
-| **Shopping cart** | [Open prototype](<Prototype Screens/Web Screens/shopping_cart_bharatcart/code.html>) · [View preview](<Prototype Screens/Web Screens/shopping_cart_bharatcart/screen.png>) | [Open prototype](<Prototype Screens/Mobile Screens/cart_bharatcart_mobile/code.html>) · [View preview](<Prototype Screens/Mobile Screens/cart_bharatcart_mobile/screen.png>) |
-| **Payment selection** | [Open prototype](<Prototype Screens/Web Screens/checkout_payment_bharatcart/code.html>) · [View preview](<Prototype Screens/Web Screens/checkout_payment_bharatcart/screen.png>) | [Open prototype](<Prototype Screens/Mobile Screens/payment_selection_bharatcart_mobile/code.html>) · [View preview](<Prototype Screens/Mobile Screens/payment_selection_bharatcart_mobile/screen.png>) |
-| **Payment failure & recovery** | [Open prototype](<Prototype Screens/Web Screens/payment_failed_retry_safe_bharatcart/code.html>) · [View preview](<Prototype Screens/Web Screens/payment_failed_retry_safe_bharatcart/screen.png>) | [Open prototype](<Prototype Screens/Mobile Screens/payment_failed_retry_safe_bharatcart_mobile/code.html>) · [View preview](<Prototype Screens/Mobile Screens/payment_failed_retry_safe_bharatcart_mobile/screen.png>) |
-| **Order confirmation** | [Open prototype](<Prototype Screens/Web Screens/order_confirmed_bharatcart/code.html>) · [View preview](<Prototype Screens/Web Screens/order_confirmed_bharatcart/screen.png>) | [Open prototype](<Prototype Screens/Mobile Screens/order_confirmed_bharatcart_mobile/code.html>) · [View preview](<Prototype Screens/Mobile Screens/order_confirmed_bharatcart_mobile/screen.png>) |
+<details>
+<summary><strong>01 · Cart — review the total before checkout</strong></summary>
 
-Each HTML screen is a **visual prototype**, not a functioning shopping or payment flow. Fonts, styling, and some screen imagery load from external sources; an internet connection may be needed for the intended appearance.
+See the itemized price, applied savings, and delivery information in the cart.
+
+<p>
+  <a href="Prototype%20Screens/Web%20Screens/shopping_cart_bharatcart/screen.png"><img src="Prototype%20Screens/Web%20Screens/shopping_cart_bharatcart/screen.png" alt="Web concept: cart with itemized prices, discounts, delivery and order total" width="440"></a>
+  &nbsp;&nbsp;
+  <a href="Prototype%20Screens/Mobile%20Screens/cart_bharatcart_mobile/screen.png"><img src="Prototype%20Screens/Mobile%20Screens/cart_bharatcart_mobile/screen.png" alt="Mobile concept: cart with itemized prices, discounts, delivery and order total" width="145"></a>
+</p>
+
+[Open web HTML prototype](<Prototype Screens/Web Screens/shopping_cart_bharatcart/code.html>) · [Open mobile HTML prototype](<Prototype Screens/Mobile Screens/cart_bharatcart_mobile/code.html>)
+
+</details>
+
+<details>
+<summary><strong>02 · Payment — choose a payment method with the order details in view</strong></summary>
+
+Review the amount and delivery details while selecting from the concept payment options.
+
+<p>
+  <a href="Prototype%20Screens/Web%20Screens/checkout_payment_bharatcart/screen.png"><img src="Prototype%20Screens/Web%20Screens/checkout_payment_bharatcart/screen.png" alt="Web concept: payment selection with delivery and order summary" width="440"></a>
+  &nbsp;&nbsp;
+  <a href="Prototype%20Screens/Mobile%20Screens/payment_selection_bharatcart_mobile/screen.png"><img src="Prototype%20Screens/Mobile%20Screens/payment_selection_bharatcart_mobile/screen.png" alt="Mobile concept: payment options and payable total" width="145"></a>
+</p>
+
+[Open web HTML prototype](<Prototype Screens/Web Screens/checkout_payment_bharatcart/code.html>) · [Open mobile HTML prototype](<Prototype Screens/Mobile Screens/payment_selection_bharatcart_mobile/code.html>)
+
+</details>
+
+<details>
+<summary><strong>03 · Payment recovery — explain a failure and preserve the cart</strong></summary>
+
+Show an actionable retry or alternate payment path while reassuring the shopper that the cart context is retained.
+
+<p>
+  <a href="Prototype%20Screens/Web%20Screens/payment_failed_retry_safe_bharatcart/screen.png"><img src="Prototype%20Screens/Web%20Screens/payment_failed_retry_safe_bharatcart/screen.png" alt="Web concept: payment failure with retry, alternate methods and retained cart summary" width="440"></a>
+  &nbsp;&nbsp;
+  <a href="Prototype%20Screens/Mobile%20Screens/payment_failed_retry_safe_bharatcart_mobile/screen.png"><img src="Prototype%20Screens/Mobile%20Screens/payment_failed_retry_safe_bharatcart_mobile/screen.png" alt="Mobile concept: payment failure with retry choices and retained order details" width="145"></a>
+</p>
+
+[Open web HTML prototype](<Prototype Screens/Web Screens/payment_failed_retry_safe_bharatcart/code.html>) · [Open mobile HTML prototype](<Prototype Screens/Mobile Screens/payment_failed_retry_safe_bharatcart_mobile/code.html>)
+
+</details>
+
+<details>
+<summary><strong>04 · Order confirmation — recap payment and delivery information</strong></summary>
+
+Summarize the completed concept journey with the order, payment, and delivery details.
+
+<p>
+  <a href="Prototype%20Screens/Web%20Screens/order_confirmed_bharatcart/screen.png"><img src="Prototype%20Screens/Web%20Screens/order_confirmed_bharatcart/screen.png" alt="Web concept: order confirmation, delivery status and payment summary" width="440"></a>
+  &nbsp;&nbsp;
+  <a href="Prototype%20Screens/Mobile%20Screens/order_confirmed_bharatcart_mobile/screen.png"><img src="Prototype%20Screens/Mobile%20Screens/order_confirmed_bharatcart_mobile/screen.png" alt="Mobile concept: order confirmation with delivery and order details" width="145"></a>
+</p>
+
+[Open web HTML prototype](<Prototype Screens/Web Screens/order_confirmed_bharatcart/code.html>) · [Open mobile HTML prototype](<Prototype Screens/Mobile Screens/order_confirmed_bharatcart_mobile/code.html>)
+
+</details>
+
+These are **static visual concepts**, not a connected or functioning shopping/payment flow. Some copy and screen imagery is illustrative; fonts and styling use external sources, so an internet connection may be needed for the intended appearance.
 
 ## Product thinking
 
