@@ -98,6 +98,47 @@ Summarize the completed concept journey with the order, payment, and delivery de
 
 These are **static visual concepts**, not a connected or functioning shopping/payment flow. Some copy and screen imagery is illustrative; fonts and styling use external sources, so an internet connection may be needed for the intended appearance.
 
+## Personas & research visuals
+
+These supporting visuals show how the case-study persona and checkout-friction hypotheses are framed. They are exploratory portfolio artifacts, not research evidence or validated customer findings. Select an image to view it at full size.
+
+<details>
+<summary><strong>Empathy map — shopper thoughts, actions, and pain points</strong></summary>
+
+<p align="center">
+  <a href="Prototype%20Screens/empathy_map_amazon.png"><img src="Prototype%20Screens/empathy_map_amazon.png" alt="Exploratory empathy map for a fictional shopper considering price, delivery and payment confidence" width="900"></a>
+</p>
+
+</details>
+
+<details>
+<summary><strong>Customer journey — checkout stages and proposed opportunities</strong></summary>
+
+<p align="center">
+  <a href="Prototype%20Screens/journey_map_amazon.png"><img src="Prototype%20Screens/journey_map_amazon.png" alt="Illustrative customer journey map showing shopping stages, checkout pain points and potential opportunities" width="900"></a>
+</p>
+
+</details>
+
+<details>
+<summary><strong>Persona explorations — alternate Ananya Rao profile drafts</strong></summary>
+
+These are alternate visual treatments of a working persona, not separate or research-validated customer profiles.
+
+<p align="center">
+  <a href="Prototype%20Screens/persona_ananya_rao.png"><img src="Prototype%20Screens/persona_ananya_rao.png" alt="Exploratory Ananya Rao shopper persona visual" width="700"></a>
+</p>
+
+<p align="center">
+  <a href="Prototype%20Screens/persona_ananya_rao_amazon.png"><img src="Prototype%20Screens/persona_ananya_rao_amazon.png" alt="Alternate Ananya Rao checkout persona visual with illustrative funnel hypotheses" width="700"></a>
+</p>
+
+<p align="center">
+  <a href="Prototype%20Screens/persona_ananya_rao_v2%20(1).png"><img src="Prototype%20Screens/persona_ananya_rao_v2%20(1).png" alt="Alternate Ananya Rao persona visual focused on price clarity" width="700"></a>
+</p>
+
+</details>
+
 ## Product thinking
 
 ### Goals
@@ -130,7 +171,7 @@ Define eligible carts, the conversion event, attribution window, and baseline be
 - The PRD is marked **Draft**. The personas, root causes, priorities, and proposed impact are not validated research findings.
 - Prototype prices, fees, discounts, delivery dates, timers, support details, and security/compliance statements are illustrative—not real offers, verified guarantees, or implemented safeguards.
 - The screens do not implement pricing logic, delivery estimation, authentication, address storage, payment processing, order persistence, or duplicate-transaction protection.
-- The repository includes exploratory persona, empathy, journey, and roadmap visuals (including assets in `GPT Images/`). Treat these as draft artifacts: their assertions have not been verified, and the roadmap visual does not match the priority order in the PRD. The PRD is the current source of truth.
+- The repository includes exploratory persona, empathy, journey, and roadmap visuals. Treat these as draft artifacts: their assertions have not been verified, and the roadmap visual does not match the priority order in the PRD. The PRD is the current source of truth.
 - No conversion lift, customer research result, or production readiness is claimed.
 
 ## About this portfolio project
